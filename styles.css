@@ -1,0 +1,222 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 20px 80px;
+    background-color: #e6e6e6;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+header p {
+    margin: 5px 0;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0px 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: yellow;
+}
+
+/* Section Styles */
+.section {
+    padding: 10px 0 20px;
+    margin-top: 35px;
+    background-color: #f2f2f2;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#about img{
+    width: 120px;
+    border-radius: 100%;
+    margin-left: 45%;
+}
+
+/* Skills Section */
+#skills{
+    background-color: #99bde4;
+    padding-bottom: 40px;
+}
+.skills-grid {
+    display: inline-block;
+    justify-content: center;
+    gap: 20px;
+    background-color: #e6e6e6;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.skill {
+    background-color: #4CAF50;
+    color: white;
+    width: auto;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.skill:hover {
+    transform: translateY(-10px);
+    background-color: #45a049;
+}
+
+/* Projects Section */
+.projects-grid {
+    display: block;
+    margin: 10px;
+    flex-direction: column;
+    gap: 20px; /* Space between the project cards */
+}
+
+.project {
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.project.yellow {
+    width: 20%;
+    background-color: #ffa600;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.project.blue {
+    width: 20%;
+    background-color: #007bff;
+    color: white;
+}
+
+.project.grey {
+    width: 95%;
+    background-color: #6c757d;
+    color: white;
+}
+
+/* Adjust the typography */
+.project h3 {
+    margin-top: 0;
+}
+
+.project p {
+    font-size: 16px;
+}
+/* Contact Section */
+.contact-form {
+    display: block;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px;
+}
+.contact-form input{
+    margin: 10px 0px;
+}
+.contact {
+    width: fit-content;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    
+}
+
+button {
+    padding: 15px;
+    background-color: white;
+    color: #6e6f70;
+    border-color: #45a056;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    width: 10%;
+}
+
+button:hover {
+    background-color: #45a056;
+    color: white;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+footer a {
+    color: yellow;
+}
+/*arrow*/
+.icon-box {
+    width: 50px;
+    height: 50px;
+    background-color: #00A9E0;
+    border-radius: 10px; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    cursor: pointer; 
+    text-align: center;
+    align-content: center;
+}
+html {
+    scroll-behavior: smooth;
+}
